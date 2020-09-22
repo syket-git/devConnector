@@ -1,0 +1,6 @@
+{
+    "mongoURI" : "mongodb+srv://syket:syket@cluster0.ztmhk.mongodb.net/<dbname>?retryWrites=true&w=majority", 
+    "jwtToken" : "mysecretekey", 
+    "githubClientId" : "57838a7b6a2829fc645b", 
+    "githubSecretKey" : "8fac9254dfc11717e5cd98b499e6520298e90e9e" 
+}
