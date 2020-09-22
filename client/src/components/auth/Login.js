@@ -10,7 +10,7 @@ const Login = ({login, isAuthenticated}) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
+    window.scrollTo(0,0);
     login(email, password)
 
     setEmail('');

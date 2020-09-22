@@ -14,6 +14,8 @@ const Register = ({ setAlert, register, isAuthenticated }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
+    window.scrollTo(0,0);
+
     if (password !== password2) {
       setAlert("Password Doesn't match", 'danger');
     } else {
